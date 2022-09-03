@@ -1,0 +1,52 @@
+
+.location {
+    width: 45vw;
+    height: 40vh;
+    text-align: center;
+    margin: 5vh 2.5vw;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2em;
+}
+
+select {
+    width: 30vw;
+    height: 5vh;
+    border-radius: 5em;
+    margin: 2vh
+}
+
+button {
+    font-size: 16px;
+    border-radius: 0.5em;
+    padding: 0.5em 1.5em;
+    margin: 2em auto;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    color: black;
+    background-color: gray;
+}
+
+button:disabled:hover {
+    cursor: not-allowed;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.793);
+}
+
+button:enabled{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(11, 167, 11);
+}
+
+button:enabled:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(23, 138, 23);
+}

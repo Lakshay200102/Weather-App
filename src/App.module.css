@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.weather {
+    margin: 5vh 2.5vw;
+    height: 90vh;
+    width: 45vw;
+    background-color: white;
+    border-radius: 2em
+}

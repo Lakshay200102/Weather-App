@@ -1,0 +1,14 @@
+body {
+  background-color: rgba(137, 43, 226, 0.863);
+  display: flex;
+  margin: 0;
+  padding: 0;
+  /* align-items: center; */
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
